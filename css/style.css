@@ -128,12 +128,44 @@ body {
 	font-size: 50px;
 	color: #f5f200;
 	text-transform: uppercase;
-	margin-top: 200px;
+	margin: 200px 0 155px;
 }
 .bgvideo__h2 {
 	font-family: "RobotoLight", sans-serif;
 	font-size: 40px;
 	color: #fff;
 }
+.bgvideo__btns {
+	font-size: 1px;
+}
+.btn-bg {
+	display: inline-block;
+	width: 270px;
+	height: 60px;
+	background-repeat: no-repeat;
+	font-size: 16px;
+	font-family: "RobotoBold", sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	padding: 19px;
+	position: relative;
+}
+.btn-bg-blue {
+	background-image: url(../img/button-blue.png);
+	color: #007bc2;
+	margin-right: 230px;
+}
+.btn-bg-green {
+	background-image: url(../img/button-green.png);
+	color: #009640;
+}
+// .btn-bg-blue:after {
+// 	content: "";
+// 	width: 73px;
+// 	height: 299px;
+// 	background-image: url(../img/arrow1left.png);
+// 	background-repeat: no-repeat;
+// 	position: absolute;
+// }
 
 
