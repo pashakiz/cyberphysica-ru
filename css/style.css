@@ -126,7 +126,7 @@ body {
 	font-size: 50px;
 	color: #f5f200;
 	text-transform: uppercase;
-	margin: 200px 0 155px;
+	margin: 200px 0 117px;
 }
 .bgvideo__h2 {
 	font-family: "RobotoLight", sans-serif;
@@ -176,6 +176,24 @@ body {
 	background-repeat: no-repeat;
 	position: absolute;
 	right: 0;
+}
+.arrow-left {
+	width: 73px;
+	height: 299px;
+	background-image: url(../img/arrow1left.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	left: 362px;
+	top: -258px;
+}
+.arrow-right {
+	width: 73px;
+	height: 299px;
+	background-image: url(../img/arrow1right.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	right: 372px;
+	top: -258px;
 }
 .hexagon {
 	text-align: center;
@@ -265,6 +283,7 @@ body {
 	background-image: url(../img/bg-advantage.jpg);
 	background-repeat: no-repeat;
 	background-position: 50% 100%;
+	position: relative;
 }
 .blocktitle {
 	color: #000;
@@ -281,6 +300,42 @@ body {
 .blocktitle_2row {
 	font-size: 24px;
 }
+.arrow-blue {
+	width: 118px;
+	height: 1390px;
+	background-image: url(../img/arrow-blue.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	left: 83px;
+	top: -460px;
+}
+.arrow-green {
+	width: 45px;
+	height: 738px;
+	background-image: url(../img/arrow-green.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	right: 154px;
+	top: -460px;
+}
+.arrow-orange-left {
+	width: 182px;
+	height: 1068px;
+	background-image: url(../img/arrow-orange-l.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	left: 168px;
+	top: -188px;
+}
+.arrow-orange-right {
+	width: 84px;
+	height: 403px;
+	background-image: url(../img/arrow-orange-r.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	right: 250px;
+	top: -177px;
+}
 .advantage__container {
 	position: relative;
 	top: -67px;
@@ -294,13 +349,47 @@ body {
 	height: 715px;
 	background-image: url(../img/hexagon4.png);
 	background-repeat: no-repeat;
+	padding: 194px 105px 175px;
 	position: absolute;
 	right: -15px;
 	top: -3px;
 }
+.hexagon__logo1 {
+	width: 283px;
+	height: 51px;
+}
+.hexagon__logo2 {
+	width: 290px;
+	height: 49px;
+}
+.list {
+	margin: 50px 0 0 0;
+	padding: 0 0 0 32px;
+	list-style: none;
+	color: #fff;
+	font-family: "RobotoRegular", sans-serif;
+	font-size: 22px;
+	line-height: 26px;
+	text-align: left;
+}
+.list__item {
+	display: block;
+	margin-bottom: 45px;
+	position: relative;
+}
+.list__item:last-child {
+	margin-bottom: 0;
+}
+.list__item-icon {
+	font-size: 15px;
+	position: absolute;
+	top: 5px;
+	left: -32px;
+}
 .hexagon__white1 {
 	width: 530px;
 	height: 600px;
+	padding: 180px 90px 160px;
 	background-image: url(../img/hexagon5.png);
 	background-repeat: no-repeat;
 	position: absolute;
@@ -310,15 +399,28 @@ body {
 .hexagon__white2 {
 	width: 530px;
 	height: 600px;
+	padding: 180px 90px 160px;
 	background-image: url(../img/hexagon5.png);
 	background-repeat: no-repeat;
 	position: absolute;
 	top: 149px;
 	left: -15px;
 }
+.hexagon__white-text {
+	color: #000;
+	font-size: 17px;
+	font-family: "RobotoMedium", sans-serif;
+}
+.hexagon__white-border {
+	width: 318px;
+	height: 1px;
+	border-bottom: 1px dashed #d2d2d2;
+	margin: 25px 0;
+}
 .hexagon__green2 {
 	width: 630px;
 	height: 715px;
+	padding: 194px 105px 175px;
 	background-image: url(../img/hexagon6.png);
 	background-repeat: no-repeat;
 	position: absolute;
