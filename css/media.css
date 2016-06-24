@@ -77,12 +77,7 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
-	#carousel {
-		display: none;
-	}
-	.bgvideo__video {
-		display: block;
-	}
+
 }
 
  /* Large Devices, Wide Screens */
@@ -100,6 +95,12 @@
 	.nav__item {
 		display: inline-block;
 		margin: 0 50px;
+	}
+	#carousel {
+		display: none;
+	}
+	.bgvideo__video {
+		display: block;
 	}
 	.bgvideo__h1 {
 		margin: 200px 0 155px;
