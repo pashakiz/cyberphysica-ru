@@ -40,7 +40,39 @@
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
-
+	.hexagon__red {
+		position: static;
+		margin: 0 auto;
+	}
+	.hexagon__green2 {
+		position: static;
+		margin: 0 auto;
+	}
+	.whowe_bgr {
+		background-image: url(../img/bgwhor.png);
+		background-position: 100% 50%;
+	}
+	.whowe_bgl {
+		background-image: url(../img/bgwhol.png);
+		background-position: 0 50%;
+	}
+	.whowe__text-container {
+		display: table;
+		height: 196px;
+		color: #000;
+		font-size: 18px;
+		font-family: "RobotoBold", sans-serif;
+		text-transform: uppercase;
+		vertical-align: middle;
+	}
+	.whowe__text {
+		display: table-cell;
+		vertical-align: middle;
+	}
+	.whowe__text_r {
+		text-align: right;
+		width: 100%;
+	}
 }
 
 /* Medium Devices, Desktops */
@@ -52,5 +84,136 @@
 @media only screen and (min-width : 1200px) {
 	.container {
 		width: 1200px;
+	}
+	.btn-mobile-nav {
+		display: none;
+	}
+	.nav {
+		display: block;
+		margin: 0;
+	}
+	.nav__item {
+		display: inline-block;
+		margin: 0 50px;
+	}
+	.bgvideo__h1 {
+		margin: 200px 0 155px;
+	}
+	.bgvideo__btns {
+		width: 772px;
+		position: absolute;
+		bottom: 275px;
+		left: 50%;
+		margin-left: -386px;
+	}
+	.arrow-left {
+		width: 73px;
+		height: 299px;
+		background-image: url(../img/arrow1left.png);
+		background-repeat: no-repeat;
+		position: absolute;
+		left: 260px;
+		top: -258px;
+	}
+	.arrow-right {
+		width: 73px;
+		height: 299px;
+		background-image: url(../img/arrow1right.png);
+		background-repeat: no-repeat;
+		position: absolute;
+		right: 262px;
+		top: -258px;
+	}
+	.arrow-blue {
+		width: 118px;
+		height: 1390px;
+		background-image: url(../img/arrow-blue.png);
+		background-repeat: no-repeat;
+		position: absolute;
+		left: 32px;
+		top: -1290px;
+	}
+	.arrow-green {
+		width: 45px;
+		height: 738px;
+		background-image: url(../img/arrow-green.png);
+		background-repeat: no-repeat;
+		position: absolute;
+		right: 65px;
+		top: -622px;
+	}
+	.arrow-orange-left {
+		width: 182px;
+		height: 1068px;
+		background-image: url(../img/arrow-orange-l.png);
+		background-repeat: no-repeat;
+		position: absolute;
+		left: 100px;
+		top: -1010px;
+	}
+	.arrow-orange-right {
+		width: 84px;
+		height: 403px;
+		background-image: url(../img/arrow-orange-r.png);
+		background-repeat: no-repeat;
+		position: absolute;
+		right: 175px;
+		top: -355px;
+	}
+	.forwho {
+		height: 820px;
+	}
+	.hexagon_blue {
+		height: 492px;
+		background-image: url(../img/hexagon1.png);
+		padding: 50px 0 0 0;
+		margin: 0;
+	}
+	.hexagon_green {
+		height: 492px;
+		background-image: url(../img/hexagon2.png);
+		padding: 50px 0 0 0;
+		margin: 0;
+	}
+	.hexagon__white1 {
+		display: block;
+	}
+	.hexagon__white2 {
+		display: block;
+	}
+	.hexagon__white2clone {
+		display: none;
+	}
+	.hexagon__white1clone {
+		display: none;
+	}
+	.hexagon_orange {
+		width: 687px;
+		height: 470px;
+		background-image: url(../img/hexagon3.png);
+		margin: 0 auto;
+		left: 9px;
+		top: -142px;
+	}
+	.row_left {
+		left: 0;
+		position: static;
+	}
+	.advantage__container {
+		padding-top: 0;
+		position: relative;
+		top: -67px;
+	}
+	.hexagon__red {
+		position: absolute;
+		right: -15px;
+		top: -3px;
+		margin: 0;
+	}
+	.hexagon__green2 {
+		position: absolute;
+		left: -15px;
+		top: 0;
+		margin: 0;
 	}
 }

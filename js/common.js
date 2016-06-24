@@ -98,4 +98,8 @@ $(document).ready(function() {
 		return false;
 	});
 
+	$(".btn-mobile-nav").on("click", function(){
+		$(".nav").toggle();
+	});
+
 });

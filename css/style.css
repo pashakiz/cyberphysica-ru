@@ -71,22 +71,30 @@ body {
 .contats__elem .icon-phone {
 	margin-right: 4px;
 }
+.btn-mobile-nav {
+	float: right;
+	margin-left: 30px;
+	font-size: 35px;
+	line-height: 1;
+	cursor: pointer;
+}
 .navigation {
 	background-color: #e6e6e6;
 	padding: 16px 0 15px;
 	text-align: center;
 }
 .nav {
+	display: none;
 	font-family: "RobotoMedium", sans-serif;
 	font-size: 12px;
 	text-transform: uppercase;
 	list-style: none;
 	padding: 0;
-	margin: 0;
+	margin: 40px 0 0 0;
 }
 .nav__item {
-	display: inline-block;
-	margin: 0 50px;
+	display: block;
+	margin: 20px 0;
 }
 .nav__itemlnk {
 	color: #000;
@@ -126,7 +134,7 @@ body {
 	font-size: 50px;
 	color: #f5f200;
 	text-transform: uppercase;
-	margin: 200px 0 155px;
+	margin: 100px 0 55px;
 }
 .bgvideo__h2 {
 	font-family: "RobotoLight", sans-serif;
@@ -135,11 +143,6 @@ body {
 }
 .bgvideo__btns {
 	font-size: 1px;
-	width: 772px;
-	position: absolute;
-	bottom: 275px;
-	left: 50%;
-	margin-left: -386px;
 }
 .btn-bg {
 	display: inline-block;
@@ -163,7 +166,6 @@ body {
 	color: #009640;
 }
 .forwho {
-	height: 820px;
 	position: relative;
 }
 .forwho__bgl {
@@ -182,23 +184,9 @@ body {
 	position: absolute;
 	right: 0;
 }
-.arrow-left {
-	width: 73px;
-	height: 299px;
-	background-image: url(../img/arrow1left.png);
-	background-repeat: no-repeat;
-	position: absolute;
-	left: 260px;
-	top: -258px;
-}
-.arrow-right {
-	width: 73px;
-	height: 299px;
-	background-image: url(../img/arrow1right.png);
-	background-repeat: no-repeat;
-	position: absolute;
-	right: 262px;
-	top: -258px;
+.row_left {
+	left: -118px;
+	position: relative;
 }
 .hexagon {
 	text-align: center;
@@ -206,27 +194,26 @@ body {
 }
 .hexagon_blue {
 	width: 570px;
-	height: 492px;
-	background-image: url(../img/hexagon1.png);
+	height: 659px;
+	background-image: url(../img/hexagon1mob.png);
 	background-repeat: no-repeat;
-	padding: 50px 0 0 0;
+	padding: 135px 0 0 0;
+	margin: 30px auto 0;
 }
 .hexagon_green {
 	width: 570px;
-	height: 492px;
-	background-image: url(../img/hexagon2.png);
+	height: 659px;
+	background-image: url(../img/hexagon2mob.png);
 	background-repeat: no-repeat;
-	padding: 50px 0 0 0;
+	padding: 145px 0 0 0;
+	margin: 300px auto 0;
 }
 .hexagon_orange {
-	width: 687px;
-	height: 470px;
-	background-image: url(../img/hexagon3.png);
+	width: 570px;
+	height: 659px;
+	background-image: url(../img/hexagon3mob.png);
 	background-repeat: no-repeat;
-	margin: 0 auto;
-	position: relative;
-	left: 9px;
-	top: -142px;
+	margin: 300px auto 80px;
 }
 .hexagon__text {
 	color: #fff;
@@ -284,12 +271,15 @@ body {
 	line-height: 24px;
 }
 .advantage {
-	height: 1430px;
+	min-height: 1430px;
 	background-color: #f3f3f3;
 	background-image: url(../img/bg-advantage.jpg);
 	background-repeat: no-repeat;
 	background-position: 50% 100%;
 	position: relative;
+}
+.advantage__container {
+	padding-top: 50px;
 }
 .blocktitle {
 	color: #000;
@@ -306,46 +296,6 @@ body {
 .blocktitle_2row {
 	font-size: 24px;
 }
-.arrow-blue {
-	width: 118px;
-	height: 1390px;
-	background-image: url(../img/arrow-blue.png);
-	background-repeat: no-repeat;
-	position: absolute;
-	left: 32px;
-	top: -1290px;
-}
-.arrow-green {
-	width: 45px;
-	height: 738px;
-	background-image: url(../img/arrow-green.png);
-	background-repeat: no-repeat;
-	position: absolute;
-	right: 65px;
-	top: -622px;
-}
-.arrow-orange-left {
-	width: 182px;
-	height: 1068px;
-	background-image: url(../img/arrow-orange-l.png);
-	background-repeat: no-repeat;
-	position: absolute;
-	left: 100px;
-	top: -1010px;
-}
-.arrow-orange-right {
-	width: 84px;
-	height: 403px;
-	background-image: url(../img/arrow-orange-r.png);
-	background-repeat: no-repeat;
-	position: absolute;
-	right: 175px;
-	top: -355px;
-}
-.advantage__container {
-	position: relative;
-	top: -67px;
-}
 .advantage__hexagons {
 	min-height: 464px;
 	position: relative;
@@ -356,9 +306,9 @@ body {
 	background-image: url(../img/hexagon4.png);
 	background-repeat: no-repeat;
 	padding: 194px 105px 175px;
-	position: absolute;
-	right: -15px;
-	top: -3px;
+	margin: 0 auto;
+	right: 50%;
+	margin-left: 800px;
 }
 .hexagon__logo1 {
 	width: 283px;
@@ -393,6 +343,7 @@ body {
 	left: -32px;
 }
 .hexagon__white1 {
+	display: none;
 	width: 530px;
 	height: 600px;
 	padding: 180px 90px 160px;
@@ -403,6 +354,7 @@ body {
 	top: -31px;
 }
 .hexagon__white2 {
+	display: none;
 	width: 530px;
 	height: 600px;
 	padding: 180px 90px 160px;
@@ -411,6 +363,18 @@ body {
 	position: absolute;
 	top: 149px;
 	left: -15px;
+}
+.hexagon__white2clone {
+	display: block;
+	top: 510px;
+	left: 50%;
+	margin-left: 20px;
+}
+.hexagon__white1clone {
+	display: block;
+	top: 510px;
+	left: 50%;
+	margin-left: 20px;
 }
 .hexagon__white-text {
 	color: #000;
@@ -429,24 +393,17 @@ body {
 	padding: 194px 105px 175px;
 	background-image: url(../img/hexagon6.png);
 	background-repeat: no-repeat;
-	position: absolute;
-	left: -15px;
+	margin: 0 auto;
+	left: -111px;
+	top: -184px;
 }
 .whowe {
 	padding: 30px 0;
 	background-repeat: no-repeat;
-	background-position-y: 50%;
+	background-position: 0 50%;
 }
 .whowe_bgcolor {
 	background-color: #f3f3f3;
-}
-.whowe_bgr {
-	background-image: url(../img/bgwhor.png);
-	background-position-x: 100%;
-}
-.whowe_bgl {
-	background-image: url(../img/bgwhol.png);
-	background-position-x: 0;
 }
 .blocktitle_whowe {
 	margin: 47px auto 33px;
@@ -474,7 +431,7 @@ body {
 }
 .whowe__text-container {
 	display: table;
-	min-height: 196px;
+	height: 196px;
 	color: #000;
 	font-size: 18px;
 	font-family: "RobotoBold", sans-serif;
@@ -496,7 +453,7 @@ body {
 	background-image: url(../img/bg-footer.png);
 	background-repeat: no-repeat;
 	background-position: 50%;
-	background-size: contain;
+	background-size: cover;
 	padding: 67px 0 45px;
 }
 .contats_footer {

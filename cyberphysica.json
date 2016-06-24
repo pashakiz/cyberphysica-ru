@@ -8,16 +8,71 @@
 		{
 			"selection": [
 				{
+					"order": 1,
+					"id": 0
+				}
+			],
+			"id": 2,
+			"metadata": {
+				"name": "Font Awesome (subset)",
+				"url": "http://fortawesome.github.com/Font-Awesome/",
+				"designerURL": "https://github.com/davegandy",
+				"designer": "Dave Gandy",
+				"license": "Custom",
+				"licenseURL": "http://fortawesome.github.io/Font-Awesome/license/",
+				"iconsHash": 1137311338,
+				"importSize": {
+					"width": 27,
+					"height": 32
+				}
+			},
+			"height": 1024,
+			"prevSize": 32,
+			"icons": [
+				{
+					"id": 0,
+					"paths": [
+						"M877.714 768v73.143q0 14.857-10.857 25.714t-25.714 10.857h-804.571q-14.857 0-25.714-10.857t-10.857-25.714v-73.143q0-14.857 10.857-25.714t25.714-10.857h804.571q14.857 0 25.714 10.857t10.857 25.714zM877.714 475.429v73.143q0 14.857-10.857 25.714t-25.714 10.857h-804.571q-14.857 0-25.714-10.857t-10.857-25.714v-73.143q0-14.857 10.857-25.714t25.714-10.857h804.571q14.857 0 25.714 10.857t10.857 25.714zM877.714 182.857v73.143q0 14.857-10.857 25.714t-25.714 10.857h-804.571q-14.857 0-25.714-10.857t-10.857-25.714v-73.143q0-14.857 10.857-25.714t25.714-10.857h804.571q14.857 0 25.714 10.857t10.857 25.714z"
+					],
+					"attrs": [],
+					"isMulticolor": false,
+					"width": 878,
+					"tags": [
+						"bars",
+						"navicon",
+						"reorder"
+					],
+					"grid": 14
+				}
+			],
+			"invisible": false,
+			"colorThemes": []
+		},
+		{
+			"selection": [
+				{
 					"order": 19,
-					"id": 1
+					"id": 1,
+					"prevSize": 32,
+					"code": 59648,
+					"name": "mail",
+					"tempChar": ""
 				},
 				{
 					"order": 20,
-					"id": 0
+					"id": 0,
+					"prevSize": 32,
+					"code": 59649,
+					"name": "phone",
+					"tempChar": ""
 				},
 				{
 					"order": 21,
-					"id": 2
+					"id": 2,
+					"prevSize": 32,
+					"code": 59650,
+					"name": "check",
+					"tempChar": ""
 				}
 			],
 			"id": 1,
@@ -11010,7 +11065,7 @@
 			],
 			"colorThemes": [],
 			"colorThemeIdx": 0,
-			"invisible": true
+			"invisible": false
 		}
 	],
 	"preferences": {
@@ -11042,6 +11097,5 @@
 		"showCodes": true,
 		"gridSize": 16
 	},
-	"uid": -1,
-	"time": 1466591926265
+	"uid": -1
 }
