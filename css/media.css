@@ -120,6 +120,7 @@
 		position: absolute;
 		left: 260px;
 		top: -258px;
+		z-index: 101;
 	}
 	.arrow-right {
 		width: 73px;
@@ -129,6 +130,7 @@
 		position: absolute;
 		right: 262px;
 		top: -258px;
+		z-index: 101;
 	}
 	.arrow-blue {
 		width: 118px;
