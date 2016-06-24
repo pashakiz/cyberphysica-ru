@@ -110,7 +110,7 @@ body {
 	overflow: hidden;
 }
 .bgvideo__video {
-	display: block;
+	display: none;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -118,6 +118,14 @@ body {
 	bottom: 0;
 	width: 100%;
 	height: 100%;
+}
+#carousel {
+	display: block;
+}
+.slide-container {}
+.slide {
+	width: 100%;
+	height: auto;
 }
 .bgvideo__inner {
 	background-color: rgba(0,0,0,0.65);
@@ -128,6 +136,7 @@ body {
 	bottom: 0;
 	width: 100%;
 	height: 100%;
+	z-index: 100;
 }
 .bgvideo__h1 {
 	font-family: "RobotoBold", sans-serif;

@@ -77,7 +77,12 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
-
+	#carousel {
+		display: none;
+	}
+	.bgvideo__video {
+		display: block;
+	}
 }
 
  /* Large Devices, Wide Screens */
